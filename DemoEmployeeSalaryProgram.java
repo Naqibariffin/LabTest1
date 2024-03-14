@@ -95,7 +95,7 @@ public class DemoEmployeeSalaryProgram
             //Top performing employee
             outputFile.println("\n\n -------- Top Performing Employee Details Based On The Salary -------");
             outputFile.println("=========================================================================");
-            outputFile.println("Employee Name\tEmployee Salary(RM)\tEmployee Working Year");
+            outputFile.println("Employee Name\t\tEmployee Salary(RM)\t\tEmployee Working Year");
             outputFile.println("==========================================================================");
             String top_employeeData=top_employeeName+"\t\t RM "+top_employeeAnnualSalary+"\t\t"+top_employeeWorkingYear+" years";
             outputFile.println(top_employeeData);
@@ -113,7 +113,7 @@ public class DemoEmployeeSalaryProgram
             //Latest working years  employee
             outputFile.println("\n\n---------Details of Employee With The Least Years Of Service---------");
             outputFile.println("=========================================================================");
-            outputFile.println("Employee Name\tEmployee Salary(RM)\tEmployee Working Year");
+            outputFile.println("Employee Name\t\tEmployee Salary(RM)\t\tEmployee Working Year");
             outputFile.println("=========================================================================");
             String latest_employeeData=latest_employeeName+"\t\t RM "+latest_employeeAnnualSalary+"\t\t"+latest_employeeWorkingYear+" years";
             outputFile.println(latest_employeeData);
